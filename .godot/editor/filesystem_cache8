@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698697560
+::res://::1698776014
 icon.svg::CompressedTexture2D::8834895833057214280::1698091975::1698696890::1::::<><>::
 README.md::TextFile::-1::1698696224::0::1::::<><>::
 ::res://Assets/::1698696890
@@ -14,11 +14,14 @@ icon.svg::CompressedTexture2D::7753658774376271310::1692354174::1698696890::1:::
 main.tscn::PackedScene::8925939142571354586::1698092577::0::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1692354174::1698696890::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1692354174::1698696890::1::::<><>::
-::res://Scenes/::1698696991
-ball.gd::GDScript::-1::1698354705::0::1::::Ball<>CharacterBody2D<>::
-ball.tscn::PackedScene::7431037885525533393::1698696991::0::1::::<><>::res://Scenes/ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-main.tscn::PackedScene::7819356853869692344::1698695710::0::1::::<><>::uid://cugwp1rifc644
+::res://Scenes/::1698698604
+ball.gd::GDScript::-1::1698698508::0::1::::Ball<>CharacterBody2D<>::
+ball.tscn::PackedScene::7431037885525533393::1698698508::0::1::::<><>::res://Scenes/ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+death_zone.gd::GDScript::-1::1698698330::0::1::::DeathZone<>Area2D<>::
+death_zone.tscn::PackedScene::5206239162473704874::1698698332::0::1::::<><>::res://Scenes/death_zone.gd
+main.tscn::PackedScene::7819356853869692344::1698698555::0::1::::<><>::uid://cugwp1rifc644::::res://Scenes/paddle.tscn<>uid://dd4wdxgc8y0vt::::res://Scenes/ball.tscn<>uid://bgslenklj5ob8::::res://Scenes/wall.tscn<>uid://cgf687dy6wyv7::::res://Scenes/death_zone.tscn
 paddle.tscn::PackedScene::6190368459659703443::1698695710::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1
+ui.tscn::PackedScene::4005828167779586957::1698698604::0::1::::<><>::
 wall.tscn::PackedScene::2845388273955030107::1698695710::0::1::::<><>::
 ::res://Scenes/Scripts/::1698093409
 ::res://Scripts/::1698695710
