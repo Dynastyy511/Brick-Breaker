@@ -1,17 +1,9 @@
-<<<<<<< Updated upstream
-res://Scenes/ui.tscn
+res://brick.tscn
 res://Scenes/main.tscn
-res://Scripts/ui.gd
-=======
-res://Scenes/main.tscn
->>>>>>> Stashed changes
-res://Scenes/paddle.tscn
+res://Scripts/brick.gd
+res://Scripts/brick_spawner.gd
 res://Scenes/wall.tscn
-res://Scenes/ball.tscn
-res://Scenes/death_zone.tscn
-<<<<<<< Updated upstream
-res://Scenes/ball.gd
-res://Scripts/paddle.gd
-=======
 res://Scenes/ui.tscn
->>>>>>> Stashed changes
+res://Scenes/ball.gd
+res://Scenes/ball.tscn
+res://Scripts/paddle.gd
