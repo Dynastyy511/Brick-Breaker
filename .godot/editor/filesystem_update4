@@ -1,9 +1,2 @@
-res://brick.tscn
 res://Scenes/main.tscn
-res://Scripts/brick.gd
-res://Scripts/brick_spawner.gd
-res://Scenes/wall.tscn
-res://Scenes/ui.tscn
-res://Scenes/ball.gd
-res://Scenes/ball.tscn
-res://Scripts/paddle.gd
+res://brick.tscn
