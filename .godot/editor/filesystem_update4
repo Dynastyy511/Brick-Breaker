@@ -1,8 +1,6 @@
 res://Scenes/main.tscn
-<<<<<<< HEAD
-res://brick.tscn
-res://brick.gd
-=======
 res://Scripts/brick_spawner.gd
 res://Scenes/wall.tscn
->>>>>>> 9eb284375f36ae6a4974183d20dc43b7d0dfae7c
+res://Scenes/ball.tscn
+res://Scenes/ball.gd
+res://Scripts/paddle.gd
