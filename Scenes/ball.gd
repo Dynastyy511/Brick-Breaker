@@ -6,7 +6,7 @@ signal life_lost
 
 const VELOCITY_LIMIT = 40
 
-@export var ball_speed = 20
+@export var ball_speed = 15
 @export var lifes = 3
 @export var death_zone: DeathZone
 @export var ui: UI 
@@ -60,9 +60,9 @@ func reset_ball():
 func ball_collision(collider):
 	
 	var ball_width = collision_shape_2d.shape.get_rect().size.x
-	var ball_center = position.x
+	var ball_center_x = position.x
 	var collider_width = collider.get_width()
-	var collider_center_x = collider.position.X509Certificate
+	var collider_center_x = collider.position.x
 	
 	var velocity_xy = velocity.length()
 	
@@ -79,5 +79,8 @@ func ball_collision(collider):
 	
 	
 	new_velocity.y = sqrt(absf(velocity_xy* velocity_xy - new_velocity.x * new_velocity.x)) * (-1 if velocity.y > 0 else 1)
+	var speed_multiplier = speed_up_factor if collider is Paddle else 1
+	
+	velocity = (new_velocity * speed_multiplier).limit_length(VELOCITY_LIMIT)
 	
 	
