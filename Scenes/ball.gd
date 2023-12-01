@@ -34,11 +34,18 @@ func _physics_process(delta):
 	var collider = collision.get_collider()
 	if collider is Brick:
 		collider.decrease_level()
+		#
 		
-	if (collider is Brick or collider is Paddle):
+	if (collider is Paddle):
 		ball_collision(collider)
+		#sound here for when ball hits the paddle
+		
+	elif(collider is Brick):
+		ball_collision(collider)
+	
 	else:
 		velocity = velocity.bounce(collision.get_normal())
+		#sound for ball hitting wall
 		
 		
 func start_ball():
