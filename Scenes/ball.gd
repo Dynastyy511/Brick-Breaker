@@ -17,6 +17,9 @@ var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
 
+#audio var
+@onready var ball_collide = $"../MusicPack/BallCollide"
+
 
 func _ready():
 	ui.set_lifes(lifes)
@@ -83,4 +86,5 @@ func ball_collision(collider):
 	
 	velocity = (new_velocity * speed_multiplier).limit_length(VELOCITY_LIMIT)
 	
+	ball_collide.play()
 	

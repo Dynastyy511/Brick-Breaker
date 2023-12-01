@@ -4,10 +4,10 @@
 [ext_resource type="Script" path="res://Scripts/ui.gd" id="1_aopeb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oiv3j"]
-bg_color = Color(0.670588, 0, 0.109804, 1)
+bg_color = Color(0.54902, 0.454902, 0.596078, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_26rtt"]
-bg_color = Color(0.74902, 0.517647, 0.647059, 1)
+bg_color = Color(0.709804, 0.698039, 0.827451, 1)
 
 [node name="UI" type="CanvasLayer"]
 script = ExtResource("1_aopeb")
