@@ -19,6 +19,7 @@ var last_collider_id
 
 #audio var
 @onready var ball_collide = $"../MusicPack/BallCollide"
+@onready var ball_wall = $"../MusicPack/BallWall"
 
 
 func _ready():
@@ -46,7 +47,7 @@ func _physics_process(delta):
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 		#sound for ball hitting wall
-		
+		ball_wall.play()
 		
 func start_ball():
 	position = start_position
