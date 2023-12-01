@@ -9,5 +9,8 @@ res://Scenes/paddle.tscn
 res://Scenes/ui.tscn
 res://Scenes/wall.tscn
 res://Scenes/ball.gd
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 res://Scripts/level_definitions.gd
