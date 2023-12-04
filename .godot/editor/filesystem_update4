@@ -1,8 +1,3 @@
 res://Scenes/main.tscn
 res://Scripts/brick_spawner.gd
 res://brick.gd
-res://Scenes/ball.tscn
-res://Scenes/wall.tscn
-res://Scenes/ui.tscn
-res://Scenes/paddle.tscn
-res://Scenes/death_zone.tscn
