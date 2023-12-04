@@ -1,6 +1,7 @@
-res://Scenes/main.tscn
+res://Scenes/ball.tscn
 res://Scripts/brick_spawner.gd
 res://brick.gd
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -31,4 +32,6 @@ res://Scripts/ui.gd
 <<<<<<< Updated upstream
 =======
 >>>>>>> b680f1797e4044afe127e111142f79f47fd81ef3
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
