@@ -3,8 +3,11 @@ res://Scripts/brick_spawner.gd
 res://brick.gd
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 res://Scenes/ball.gd
 res://Scripts/brick.gd
 res://Scenes/death_zone.gd
@@ -16,6 +19,7 @@ res://Scenes/wall.tscn
 res://Scenes/ui.tscn
 res://Scenes/paddle.tscn
 res://Scenes/death_zone.tscn
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 res://Scenes/ball.tscn
@@ -32,6 +36,8 @@ res://Scripts/ui.gd
 <<<<<<< Updated upstream
 =======
 >>>>>>> b680f1797e4044afe127e111142f79f47fd81ef3
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -10,7 +10,6 @@ class_name UI
 @onready var background_music = $"../MusicPack/BackgroundMusic"
 @onready var fail_audio = $"../MusicPack/FailAudio"
 @onready var win = $"../MusicPack/Win"
-@onready var level_click = $"../MusicPack/LevelClick"
 
 func set_lifes(lifes: int):
 	lifes_label.text = "Lifes: %d" % lifes
@@ -29,4 +28,3 @@ func on_level_won():
 func _on_level_won_button_pressed():
 	LevelDefinitions.current_level = 2
 	get_tree().reload_current_scene()
-	level_click.play()
